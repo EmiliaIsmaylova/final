@@ -1,0 +1,484 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-family: "Unna", serif;
+  font-family: "PT Serif", serif;
+}
+
+
+:root {
+  --blue:#009DC4;
+  --gray:#4D4D4D;
+  --white:#FFFFFF;
+  --beige: #F3F0E9;
+  --lightgray: #696767;
+  --black: #313335;
+}
+
+#resp_icon{
+  display: none;
+}
+
+.header_top_container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  align-items: center;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 36px;
+}
+
+li{
+  list-style: none;
+  color: var(--gray);
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
+  font-weight: 500;
+  letter-spacing: 0.85px;
+}
+
+.navigation li:nth-child(5){
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.header_main_container{
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/Mask\ Group\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header_text h1{
+  color: var(--white);
+  font-family: "Unna", serif;
+  font-size: 400%;
+  font-weight: 100;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+
+.first_section{
+  padding-top: 128px;
+  padding-bottom: 100px;
+}
+
+.container{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.flex_card{
+  display: flex;
+  flex-direction: row;
+  gap: 137px;
+}
+
+.flex_info-1 img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.flex_info-2{
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.flex_info-2 h2{
+  color: #313335;
+  text-align: justify;
+  font-family: "Unna", serif;
+  font-size: 180%;
+  font-weight: 400;
+  line-height: 48.944px;
+}
+
+.border {
+  border-left: 2px solid #009DC4 ;
+  padding-left: 42px;
+  color: #696767;
+  text-align: justify;
+  font-family: "PT Serif";
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.p_box{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: #696767;
+  text-align: justify;
+  font-family: "PT Serif", serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.second_section{
+  max-width: 100%;
+	height: 50vh;
+	background-image: url('./images/Middle\ Image.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.third_section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.text_container{
+  display: flex;
+  gap: 169px;
+  justify-content: center;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+
+.text h3{
+  color: #4D4D4D;
+  font-family: "Unna", serif;
+  font-size: 200%;
+  font-weight: 400;
+}
+
+.text_border{
+  display: flex;
+  gap: 42px;
+}
+
+.blue{
+  width: 2px;
+  height: 66px;
+  background: #009CC4;
+}
+
+.text_border p{
+  color: #696767;
+  font-family: "PT Serif", serif;
+  text-align: justify;
+  font-size: 90%;
+  font-weight: 400;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.paragraph{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+span{
+  color: #009DC4;
+  font-weight: 700;
+}
+
+.fourth_section{
+  background: #F3F0E9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.fourth-h3 {
+  color: #4D4D4D;
+  font-family: "Unna", serif;
+  font-size: 260%;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.flex_container{
+  display: flex;
+  justify-content: center;
+  gap: 85px;
+}
+
+.card{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+
+.card-l{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  background-color: #009CC4;
+  border-radius: 50%;
+  padding: 15px ;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.circle img{
+  width: 100%;
+  height: 100%;
+}
+
+.card h4{
+  color: #4D4D4D;
+  font-family: "Unna", serif;
+  font-size: 180%;
+  font-weight: 400;
+}
+
+.card-l h4{
+  color: #4D4D4D;
+  font-family: "Unna", serif;
+  font-size: 180%;
+  font-weight: 400;
+}
+
+.card-l .line{
+  margin-top: 41px;
+  margin-bottom: 16px;
+}
+
+.line{
+  width: 66px;
+  height: 2px;
+  background: #009CC4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.card p{
+  color: #696767;
+  text-align: justify;
+  font-family: "PT Serif";
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.card-l p{
+  color: #696767;
+  text-align: justify;
+  font-family: "PT Serif", serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.fifth_section{
+  max-width: 100%;
+	/* height: 85vh; */
+	background-image: url('./images/senior-investor-buying-startup-handshaking-young-entrepreneur-group-meeting\ 1.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  padding-top: 100px;
+  padding-bottom: 98px;
+  background-attachment: fixed;
+}
+
+.white_container{
+  max-width: 1170px;
+  height: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.80);
+  display: flex;
+  padding: 48px 74px 48px 74px;
+  justify-content: center;
+  gap: 132px;
+}
+
+.left h2{
+  color: #4D4D4D;
+  font-family: "Unna", serif;
+  font-size: 310%;
+  font-weight: 400;
+  margin-bottom: 38px;
+}
+
+.left p{
+  color: #4D4D4D;
+  font-family: "PT Serif", serif;
+  font-size: 140%;
+  font-weight: 400;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.right p{
+  width: 430px;
+  color: #4D4D4D;
+  text-align: justify;
+  font-family: "PT Serif", serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sixth_section{
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-around;
+  gap: 130px;
+}
+
+.part{
+  color: #696767;
+  text-align: justify;
+  font-family: "PT Serif", serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 24px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.part h4{
+  color: #4D4D4D;
+  font-family: "Unna", serif;
+  font-size: 210%;
+  font-weight: 400;
+  margin-bottom: 61px;
+  text-align: center;
+}
+
+.part img{
+  width: 568px;
+  height: 566px;  
+}
+
+.final_section{
+  background: #39363D;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.final_container{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.final_nav{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.final ul {
+  display: flex;
+  gap: 60px;
+}
+
+.final li{
+  color: var(--white);
+  font-family: "Unna", serif;
+  font-size: 110%;
+  font-weight: 400;
+}
+
+.final_info{
+  padding-top: 55px;
+  text-align: center;
+  color: #F2F2F2;
+  font-family: "Unna", serif;
+  font-size: 110%;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.final_country{
+  justify-content: center;
+  display: flex;
+  color: #F2F2F2;
+  font-family: "Unna", serif;
+  font-size: 110%;
+  font-weight: 400;
+}
+
+.white_line{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 1px;
+  height: 20px;
+  background-color: var(--white);
+}
+
+footer{
+  background: #181818;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer_container{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+  font-family: "Unna", serif;
+  font-size: 100%;
+  font-weight: 400;
+}
+a {
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: 500;
+	color: #4d4d4d;
+}

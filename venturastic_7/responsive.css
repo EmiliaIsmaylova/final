@@ -1,0 +1,168 @@
+@media screen and (max-width: 1187px) {
+  .navigation ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+    background-color:rgba(0, 0, 0, 0.897) ;
+    width: 200px;
+    height: 100vh;
+    margin-right: 0;
+    position: fixed;
+    top: 0;
+    left: -200px	;
+    padding-top: 30px;
+    padding-left: 30px;
+    transition: 1s all ease-in-out;
+    z-index: 999;
+  }
+  #resp_check:checked ~ .navigation ul{
+    left: 0;
+  }
+  
+  #resp_icon{
+    display: block;
+  }
+
+.header_text{
+  font-size: 110%;
+}
+.white_container h2 {
+  width: 700px;
+  font-size: 120%;
+  margin: auto;
+}
+.parent_box p {
+  font-size: 80%;
+  width: 800px;
+  margin: auto;
+}
+.parent_box img{
+  display: none;
+}
+
+.second_container{
+  flex-direction: column;
+  align-items: center;
+}
+.blue img{
+  display: none;
+}
+.text_box h2{
+  text-align: center;
+}
+.blue p{
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.paragraph{
+  width: 600px;
+  text-align: center;
+}
+
+.flex{
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 60px;
+  text-align: center;
+}
+.flex:nth-child(2){
+  flex-direction: column;
+}
+.line img{
+  display: none;
+}
+.final_nav{
+  flex-direction: column;
+}
+.final ul {
+flex-direction: column;
+text-align: center;
+}
+.footer_container{
+  max-width: 600px;
+}
+}
+
+@media screen and (max-width: 809px){
+  .header_text{
+    left: 5%;
+    font-size: 90%;
+  }
+  .white_container h2 {
+    width: 500px;
+    font-size: 120%;
+  }
+  .parent_box p {
+    font-size: 80%;
+    width: 500px;
+  }
+  .image_box img{
+    width: 400px;
+    height: 400px;
+  }
+  .blue p{
+    width: 400px;
+  }
+  .paragraph{
+    width: 400px;
+    padding: 0;
+    text-align: center;
+  }
+  .image img{
+    width: 400px;
+    height: 400px;
+  }
+  .line img{
+    display: flex;
+    gap: 0px;
+  }
+  
+  .footer_container{
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  }
+}
+
+@media screen and (max-width: 532px){
+  .white_container h2 {
+    width: 300px;
+    font-size: 120%;
+}
+.parent_box p {
+  font-size: 80%;
+  width: 300px;
+}
+.image_box img {
+  width: 300px;
+  height: 300px;
+}
+.blue p{
+  width: 300px;
+}
+.paragraph{
+  width: 300px;
+  padding: 0;
+  text-align: center;
+}
+.image img {
+  width: 300px;
+  height: 300px;
+}
+.flex h2 {
+  font-size: 110%;
+  font-weight: 300;
+}
+.line img{
+  display: none;
+}
+.final li {
+  font-size: 70%;
+}
+.final_info{
+  font-size: 85%;
+}
+}
